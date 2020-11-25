@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 120.2px;
+}
+
+img {
+  width: 1em;
+  margin-bottom: 1em;
+}
+input {
+  position: relative;
+}
