@@ -1,9 +1,9 @@
 import React from "react";
 import "./style.css";
-import { Eyes, ScratchedEyes } from "./components/VisibilidadeSenha/index";
-import HeaderLight from "./components/Header/index.js";
+import { Eyes, ScratchedEyes } from "../VisibilidadeSenha/index";
+import HeaderLight from "../Header/index.js";
 
-export function FormularioLogin({onSubmit}) {
+export function FormularioLogin({ onSubmit }) {
   const [email, setEmail] = React.useState();
   const [senha, setSenha] = React.useState();
   const [senhaVisivel, setSenhaVisivel] = React.useState(false);
@@ -55,8 +55,7 @@ export function FormularioLogin({onSubmit}) {
           <div>
             <button
               onClick={() => {
-				onSubmit(email,senha);
-				
+                onSubmit(email, senha);
               }}
             >
               Entrar
