@@ -10,7 +10,7 @@ export function FormularioLogin({ onSubmit }) {
   return (
     <form
       onSubmit={(event) => {
-		  event.preventDefault();
+        event.preventDefault();
         onSubmit(email, senha);
       }}
     >
@@ -52,6 +52,8 @@ export function FormularioLogin({ onSubmit }) {
       <span className="esqueci-senha">
         <a href="/esqueci">Esqueci minha senha</a>
       </span>
+
+      <button>Entrar</button>
     </form>
   );
 }
