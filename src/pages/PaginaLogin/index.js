@@ -20,9 +20,9 @@ export function autenticar(email, senha) {
 
 export function Login(props) {
   return (
-    <BodyAuth
-      rodape={"Não tem uma conta " + <Link to="/cadastro">Cadastre-se</Link>}
-    >
+	<BodyAuth rodape="Não tem uma conta " 
+	          botao="Criar Conta" 
+	          link="/cadastro">
       <FormularioLogin
         onSubmit={(email, senha) => {
           autenticar(email, senha);

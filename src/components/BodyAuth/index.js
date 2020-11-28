@@ -1,5 +1,6 @@
 import React from "react";
 import { HeaderLight } from "../Header";
+import {Link} from "react-router-dom";
 
 export function BodyAuth(props) {
   return (
@@ -7,11 +8,14 @@ export function BodyAuth(props) {
       <div className="formulario">
         <div className="centroFormulario">
           <HeaderLight />
-		  {props.children}
+          {props.children}
         </div>
       </div>
       <div className="rodapeLogin">
-        <p className="temConta">{props.rodape}</p>
+        <p className="temConta">
+          {props.rodape}
+          <Link to={props.link}>{props.botao}</Link>
+        </p>
       </div>
     </div>
   );
