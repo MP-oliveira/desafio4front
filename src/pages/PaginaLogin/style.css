@@ -1,0 +1,16 @@
+.minhaSenha .linkLogin {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 1em;
+}
+
+.minhaSenha .button {
+  width: 166px;
+  height: 39px;
+  background: rgba(218, 1, 117, 0.35);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}

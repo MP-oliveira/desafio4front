@@ -1,1 +1,16 @@
+.paginaCadastro label::placeholder{
+	opacity: 0.4;
+}
 
+.paginaCadastro button{
+	margin-left: 2.3em;
+}
+.paginaCadastro .rodape{
+	margin-right: 0.5em;
+
+}
+
+.paginaCadastro .temConta a{
+	padding-left: 0.5em;
+
+}

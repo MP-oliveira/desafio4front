@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.css";
 import { Eyes, ScratchedEyes } from "../VisibilidadeSenha/index";
+import { Link } from "react-router-dom";
 
-export function FormularioLogin({ onSubmit }) {
+export function FormularioLogin({ onSubmit, link, rodape, botao }) {
   const [email, setEmail] = React.useState();
   const [senha, setSenha] = React.useState();
   const [senhaVisivel, setSenhaVisivel] = React.useState(false);
 
   return (
+	  <div className="form">
     <form
       onSubmit={(event) => {
         event.preventDefault();
@@ -49,11 +51,17 @@ export function FormularioLogin({ onSubmit }) {
           )}
         </div>
       </label>
-      <span className="esqueci-senha">
-        <a href="/esqueci">Esqueci minha senha</a>
-      </span>
+      <div className="rodapeLogin">
+        <p className="temConta">
+          <span className="link">
+            <Link to={link}>{botao}</Link>
+          </span>
+          {rodape}
+        </p>
+      </div>
 
-      <button>Entrar</button>
+      <button className="botaoEntrar">Entrar</button>
     </form>
+	</div>
   );
 }
