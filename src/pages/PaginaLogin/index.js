@@ -27,7 +27,7 @@ export function Login(link, rodape) {
         className="paginaLogin"
         rodape="Não tem uma conta "
         botao="Cadastre-se"
-        link="/cadastro"
+        // link="/cadastro"
       >
         <FormularioLogin
           onSubmit={(email, senha) => {
@@ -35,16 +35,12 @@ export function Login(link, rodape) {
               if (dados.dados.token) {
                 setToken(dados.dados.token);
                 history.push("/home");
-              }else{
-				  alert(dados);
-			  }
+              } else {
+                alert(dados);
+              }
             });
           }}
         />
-
-        <div className="linkLogin">
-          <Link to="/esqueci">Esqueci minha senha</Link>
-        </div>
       </BodyAuth>
     </div>
   );

@@ -9,59 +9,59 @@ export function FormularioLogin({ onSubmit, link, rodape, botao }) {
   const [senhaVisivel, setSenhaVisivel] = React.useState(false);
 
   return (
-	  <div className="form">
-    <form
-      onSubmit={(event) => {
-        event.preventDefault();
-        onSubmit(email, senha);
-      }}
-    >
-      <label>
-        <span>E-mail</span>
-        {/* react get email ou get text from input */}
-        <input
-          onInput={(event) => {
-            setEmail(event.target.value);
-          }}
-          className="login"
-          type="email"
-          placeholder="exemplo@gmail.com"
-        />
-      </label>
-      <label>
-        <span>Senha</span>
-        <div className="inputEnvelop">
+    <div className="form">
+      <form
+        onSubmit={(event) => {
+          event.preventDefault();
+          onSubmit(email, senha);
+        }}
+      >
+        <label>
+          <span>E-mail</span>
+          {/* react get email ou get text from input */}
           <input
             onInput={(event) => {
-              setSenha(event.target.value);
+              setEmail(event.target.value);
             }}
             className="login"
-            type={senhaVisivel ? "text" : "password"}
+            type="email"
+            placeholder="exemplo@gmail.com"
           />
-          {senhaVisivel ? (
-            <Eyes
-              className="visibilidadeSenha"
-              onClick={() => setSenhaVisivel(!senhaVisivel)}
+        </label>
+        <label>
+          <span>Senha</span>
+          <div className="inputEnvelop">
+            <input
+              onInput={(event) => {
+                setSenha(event.target.value);
+              }}
+              className="login"
+              type={senhaVisivel ? "text" : "password"}
             />
-          ) : (
-            <ScratchedEyes
-              className="visibilidadeSenha"
-              onClick={() => setSenhaVisivel(!senhaVisivel)}
-            />
-          )}
+            {senhaVisivel ? (
+              <Eyes
+                className="visibilidadeSenha"
+                onClick={() => setSenhaVisivel(!senhaVisivel)}
+              />
+            ) : (
+              <ScratchedEyes
+                className="visibilidadeSenha"
+                onClick={() => setSenhaVisivel(!senhaVisivel)}
+              />
+            )}
+          </div>
+        </label>
+        <div className="rodapeLogin">
+          <p className="temConta">
+		  <div className="linkLogin">
+          <Link to="/esqueci">Esqueci minha senha</Link>
         </div>
-      </label>
-      <div className="rodapeLogin">
-        <p className="temConta">
-          <span className="link">
-            <Link to={link}>{botao}</Link>
-          </span>
-          {rodape}
-        </p>
-      </div>
+            {rodape}
+          </p>
+        </div>
 
-      <button className="botaoEntrar">Entrar</button>
-    </form>
-	</div>
+        <button className="botaoEntrar">Entrar</button>
+      </form>
+    </div>
   );
 }
