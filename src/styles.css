@@ -6,7 +6,7 @@
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: Montserrat,sans-serif;
   text-align: center;
 }
 
@@ -23,6 +23,7 @@ body {
 
 .formulario {
   min-width: 22em;
+  min-height: 20em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,7 +48,9 @@ form {
   animation-name: fade;
   animation-duration: 1s;
 }
-
+.esqueciConteudo{
+	
+}
 .header img {
   width: 1.2em;
   display: flex;
@@ -144,6 +147,7 @@ button {
   display: flex;
   justify-content: flex-end;
   margin-left: 8.7em;
+  margin-top: 0;
 }
 .rodapeLogin {
   font-size: 10px;
@@ -158,15 +162,19 @@ button {
   font-weight: 400;
   font-size: 12px;
   font-style: normal;
-  margin-left: 0.5em;
-  padding: 1em;
+  margin: 0.5em;
+  padding-left: 1em;
+
 }
 
-.cadastreSe {
-  display: inline;
-  padding-left: 0.5em;
-  color: palevioletred;
+.cadastro{
+	color:palevioletred;
+	display: flex;
+	justify-content:flex-end;
+	margin-top: -0.2em;
+	padding-left: 0.5em;
 }
+
 
 /* aparicão do lgoin */
 

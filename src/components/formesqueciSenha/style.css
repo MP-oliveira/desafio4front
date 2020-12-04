@@ -1,26 +1,32 @@
+
 .formEsqueciSenha .labelEmail {
   display: flex;
   align-items: flex-start;
-  margin-top: 2em;
   font-family: Montserrat;
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  margin: 2em -2em 0.2em 0.2em ;
+  box-sizing: border-box;
 }
 .formEsqueciSenha button {
   display: flex;
-  padding: 0.8em;
   justify-content: center;
-  margin-left: 1.3em;
+  margin-left: 6em;
   background-color: #DA0175;
   outline: none;
   text-decoration: none;
 }
+.formEsqueciSenha .login{
+
+}
 .formEsqueciSenha .esqueciConteudo {
-  width: 14em;
+  width: 22em;
+  height: 10em;
   color: #4c4c4c;
+	margin: 3em 0.4em 0.5em 0em;
   font-weight: 400;
-  margin-left: 2em;
+
   font-family: Montserrat;
   font-size: 14px;
   justify-content: center;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useHistory } from "react-router-dom";
+import {  useHistory } from "react-router-dom";
 import { BodyAuth } from "../../components/BodyAuth";
 import { FormularioLogin } from "../../components/form";
 import { AuthContainer } from "../../context/auth";
@@ -27,7 +27,7 @@ export function Login(link, rodape) {
         className="paginaLogin"
         rodape="Não tem uma conta "
         botao="Cadastre-se"
-        // link="/cadastro"
+        link="/cadastro"
       >
         <FormularioLogin
           onSubmit={(email, senha) => {
