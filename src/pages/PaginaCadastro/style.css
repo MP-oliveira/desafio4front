@@ -1,16 +1,25 @@
-.paginaCadastro label::placeholder{
-	opacity: 0.4;
+.paginaCadastro label::placeholder {
+  opacity: 0.4;
 }
 
-.paginaCadastro button{
-	margin-left: 2.3em;
+.paginaCadastro button {
+  margin-left: 4em;
+  margin-top: 1.5em;
 }
-.paginaCadastro .rodape{
-	margin-right: 0.5em;
-
+.paginaCadastro .rodape {
+  margin-right: 0.5em;
 }
 
-.paginaCadastro .temConta a{
-	padding-left: 0.5em;
+.paginaCadastro .temConta a {
+  padding-left: 0.3em;
+}
 
+.cadastro {
+  color: palevioletred;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -0.2em;
+  padding-left: 0.5em;
+  font-size: 12px;
+  text-decoration: none;
 }

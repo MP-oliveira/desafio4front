@@ -26,7 +26,7 @@ export function Cadastro(props) {
       <BodyAuth
         rodape="Já possui uma conta "
         botao="Acesse sua Conta"
-        link="/home"
+        link="/"
       >
         <label>
           <span>Nome</span>
@@ -57,6 +57,7 @@ export function Cadastro(props) {
             });
           }}
         />
+		
       </BodyAuth>
     </div>
   );
