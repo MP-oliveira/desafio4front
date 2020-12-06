@@ -1,0 +1,48 @@
+.sidebar{
+    position: sticky;
+    top: 0;
+    flex-grow: 0;
+    background-color: #263238;
+    height: 100vh;
+    padding: 32px 20px;
+    flex-shrink: 1;
+    text-decoration: none;
+}
+.sidebar .link{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+    font-weight: bold;
+    padding-top: 74px;
+    padding-bottom: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+}
+.sidebar a img{
+    margin-right:16px;
+    width: 24px;
+    height:32px;
+    object-fit: contain;
+    object-position: center;
+}
+.sidebar a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color:#FFFFFF;
+}
+.sidebar .cobranca{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px 60px;
+    margin: 20px 0px;
+    margin-top: 300px;
+    color: #F7F7F7;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #DA0175;
+    border-radius: 20px;
+    text-decoration: none;    
+}
