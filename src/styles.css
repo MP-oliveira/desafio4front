@@ -6,7 +6,7 @@
 }
 
 .App {
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   text-align: center;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .formulario {
-  min-width: 22em;
+  width: 22em;
   min-height: 20em;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,7 @@ body {
   border-radius: 16px;
   padding: 2em;
   margin: 3em 5em 1em;
+  box-sizing: border-box;
 }
 
 .centroFormulario {
@@ -50,9 +51,7 @@ form {
   animation-name: fade;
   animation-duration: 1s;
 }
-.esqueciConteudo{
-	
-}
+
 .header img {
   width: 1.2em;
   display: flex;
@@ -166,16 +165,8 @@ button {
   font-style: normal;
   margin: 0.5em;
   padding-left: 1em;
-
 }
 
-.cadastro{
-	color:palevioletred;
-	display: flex;
-	justify-content:flex-end;
-	margin-top: -0.2em;
-	padding-left: 0.5em;
-}
 
 
 /* aparicão do lgoin */

@@ -1,107 +1,92 @@
 .centroLogin {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	min-height: 90vh;
-	align-items: center;
-  }
-  
-  .formulario {
-	min-width: 22em;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	background-color: #ffffff;
-	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.1);
-	border-radius: 16px;
-	padding: 2em;
-	margin: 3em 5em 1em;
-  }
-  
-  .centroFormulario {
-	width: 90%;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+  align-items: center;
+}
+
+.centroFormulario {
+  width: 90%;
+}
 
 form {
-	width: min(90vw, 100%);
-	height: 350px;
-	margin-top: 0.5vw;
-	display: flex;
-	flex-direction: column;
-	animation-name: fade;
-	animation-duration: 1s;
-  }
-  
-  .header img {
-	width: 1.2em;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	animation-name: fade;
-	animation-duration: 1s;
-  }
-  label {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0.5em;
-	animation-name: fade;
-	animation-duration: 1s;
-  }
-  
-  span {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 16px;
-	display: flex;
-	justify-content: flex-start;
-	margin-top: 2em;
-  }
-  
-  
-  
-  .visibilidadeSenha {
-	position: absolute;
-	right: 0.5em;
-	top: 70%;
-	transform: translateY(-50%);
-  }
-  
-  .esqueci-senha {
-	display: flex;
-	justify-content: flex-end;
-	margin-top: 3em;
-	font-weight: 400;
-	font-size: 8px;
-	text-decoration: underline;
-	cursor: pointer;
-	text-decoration-color: black;
-	align-self: flex-end;
-	animation-name: fade;
-	animation-duration: 1s;
-  }
-  
-  a {
-	color: inherit;
-  }
-  
-  button {
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: 600;
-	font-size: 14px;
-	width: 166px;
-	height: 39px;
-	background-color: rgba(218, 1, 117, 0.35);
-	border: 0;
-	border-radius: 20px;
-	color: white;
-	margin-top: 0.5em;
-	margin-left: 4em;
-	cursor: pointer;
-	outline: none;
-	animation-name: fade;
-	animation-duration: 1s;
-  }
+  width: min(90vw, 100%);
+  height: 350px;
+  margin-top: 0.5vw;
+  display: flex;
+  flex-direction: column;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+.header img {
+  width: 1.2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5em;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 2em;
+}
+
+.visibilidadeSenha {
+  position: absolute;
+  right: 0.5em;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.esqueci-senha {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 3em;
+  font-weight: 400;
+  font-size: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+  text-decoration-color: black;
+  align-self: flex-end;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  width: 166px;
+  height: 39px;
+  background-color: rgba(218, 1, 117, 0.35);
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  margin-top: 0.5em;
+  margin-left: 4em;
+  cursor: pointer;
+  outline: none;
+  animation-name: fade;
+  animation-duration: 1s;
+}
