@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./style.css";
 
 export function FormularioEsqueciSenha({ onSubmit }) {
-  const [setEmail] = React.useState();
+  const [email, setEmail] = React.useState();
 
   return (
     <div className="formEsqueciSenha">
