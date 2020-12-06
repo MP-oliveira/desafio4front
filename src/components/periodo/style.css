@@ -1,0 +1,25 @@
+.containerPeriodo .periodo a{
+    color: #263238;
+    font-size: 16px;
+    margin-right: 56px;
+    margin-left: 87px;
+    font-style: normal;
+    /* font-weight: normal; */
+    text-decoration: none;
+}
+hr{
+    background-color: #263238;
+}
+.card{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:0 60px;
+    flex-wrap: wrap;
+}
+.cardFaturamento{
+   width: 100%;
+}
+.periodo{
+    margin-top: 136px;
+}
