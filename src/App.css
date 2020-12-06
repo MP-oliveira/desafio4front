@@ -1,0 +1,9 @@
+.App{
+    display: flex;
+    box-sizing: border-box;
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
