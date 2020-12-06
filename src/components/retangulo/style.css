@@ -1,0 +1,18 @@
+.retanguloCor{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #4EC06E;
+    color: #4EC06E;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 24px 72px;
+}
+.tipo{
+    font-weight: 600;
+    font-size: 14px;
+}
+.numero{
+    font-size:36px;
+    font-weight: 600;
+}
